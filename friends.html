@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="" >
+        </div>
+        <div class="header_links">
+            <span><a href="#" class="link_in_header about">Про нас</a></span>
+            <span><a href="#" class="link_in_header news">Новини</a></span>
+            <span><a href="#" class="link_in_header applicants">Абітурієнтам</a></span>
+        </div>
+        <nav role="navigation">
+            <div id="menuToggle">
+                <!--
+                A fake / hidden checkbox is used as click reciever,
+                so you can use the :checked selector on it.
+                -->
+                <input type="checkbox" />
+
+                <!--
+                Some spans to act as a hamburger.
+
+                They are acting like a real hamburger,
+                not that McDonalds stuff.
+                -->
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <!--
+                Too bad the menu has to be inside of the button
+                but hey, it's pure CSS magic.
+                -->
+                <ul id="menu">
+                    <a class="nav_links" href="#"><li>Наша команда</li></a>
+                    <a class="nav_links" href="#"><li>Бібліотека</li></a>
+                    <a class="nav_links" href="#"><li>Олімпіади і турніри</li></a>
+                    <a class="nav_links" href="#"><li>Активність ліцею</li></a>
+                    <a class="nav_links" href="#"><li>Ліцей улітку, після уроків</li></a>
+                    <a class="nav_links" href="#"><li>Фонд рішельєвського ліцею</li></a>
+                    <a class="nav_links" href="#"><li>Піклувальная рада</li></a>
+                    <a class="nav_links" href="#"><li>Наші друзі</li></a>
+                </ul>
+            </div>
+        </nav>
+        <div class="page_name"><h1>Наші Друзі</h1></div>
+    </header>
+</body>
+</html>
